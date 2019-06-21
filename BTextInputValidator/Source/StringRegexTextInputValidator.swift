@@ -13,6 +13,8 @@ open class StringRegexTextInputValidator: TextInputValidator {
   open var regex: String = ""
   
   open func validateInputText(_ inputText: String?) -> Bool {
-    return true
+    guard let inputText = inputText else { return true }
+    let regexEvaluator = RegexEvaluator(string: regex)
+    return regexEvaluator.evaluate(value: inputText)
   }
 }
