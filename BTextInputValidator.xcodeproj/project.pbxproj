@@ -152,14 +152,9 @@
 		30EB6D2022BC9FF700447D5A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				30F3A4F222BD01DC001AE39B /* String+Extension.swift */,
-				30F3A4F022BD0134001AE39B /* RegexEvaluator.swift */,
-				30EB6D2522BCA11A00447D5A /* TextInputValidator.swift */,
-				30F3A4D022BCEB5B001AE39B /* MaxLengthTextInputValidator.swift */,
-				30F3A4D622BCF17C001AE39B /* SymbolRegexTextInputValidator.swift */,
-				30F3A4D822BCF1B9001AE39B /* StringRegexTextInputValidator.swift */,
-				30F3A4DA22BCF232001AE39B /* CharacterSetTextInputValidator.swift */,
-				30F3A4DC22BCF346001AE39B /* CompositeTextInputValidator.swift */,
+				30F3A4F422BD0307001AE39B /* Helpers */,
+				30F3A4F522BD0318001AE39B /* Protocols */,
+				30F3A4F622BD0325001AE39B /* Implementations */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -204,6 +199,35 @@
 				30F3A4EC22BCFC23001AE39B /* Symbols_a_f_TextInputValidatorTests.swift */,
 			);
 			path = CharacterSetTextInputValidatorTests;
+			sourceTree = "<group>";
+		};
+		30F3A4F422BD0307001AE39B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30F3A4F222BD01DC001AE39B /* String+Extension.swift */,
+				30F3A4F022BD0134001AE39B /* RegexEvaluator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		30F3A4F522BD0318001AE39B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				30EB6D2522BCA11A00447D5A /* TextInputValidator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		30F3A4F622BD0325001AE39B /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				30F3A4D022BCEB5B001AE39B /* MaxLengthTextInputValidator.swift */,
+				30F3A4D622BCF17C001AE39B /* SymbolRegexTextInputValidator.swift */,
+				30F3A4D822BCF1B9001AE39B /* StringRegexTextInputValidator.swift */,
+				30F3A4DA22BCF232001AE39B /* CharacterSetTextInputValidator.swift */,
+				30F3A4DC22BCF346001AE39B /* CompositeTextInputValidator.swift */,
+			);
+			path = Implementations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
