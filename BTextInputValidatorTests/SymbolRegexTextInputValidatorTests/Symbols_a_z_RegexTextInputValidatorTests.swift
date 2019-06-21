@@ -20,14 +20,14 @@ class Symbols_a_z_RegexTextInputValidatorTests: XCTestCase {
   // ""  ->  true
   func test10() {
     let actualResult = validator.validateInputText("")
-    let expectedResult = false
+    let expectedResult = true
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
   // nil  ->  true
   func test11() {
     let actualResult = validator.validateInputText(nil)
-    let expectedResult = false
+    let expectedResult = true
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
