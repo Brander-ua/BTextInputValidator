@@ -13,6 +13,8 @@ open class CompositeTextInputValidator: TextInputValidator {
   open var validators: [TextInputValidator] = []
   
   open func validateInputText(_ inputText: String?) -> Bool {
-    return true
+    return validators.reduce(true) { (result, validator) -> Bool in
+      return result && validator.validateInputText(inputText)
+    }
   }
 }

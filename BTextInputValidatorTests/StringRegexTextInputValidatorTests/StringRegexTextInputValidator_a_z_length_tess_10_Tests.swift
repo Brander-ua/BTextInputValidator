@@ -1,5 +1,5 @@
 //
-//  String_a_z_less_than_10_RegexTextInputValidatorTests.swift
+//  StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift
 //  BTextInputValidatorTests
 //
 //  Created by branderstudio on 21.06.2019.
@@ -9,7 +9,7 @@
 import XCTest
 @testable import BTextInputValidator
 
-class String_a_z_less_than_10_RegexTextInputValidatorTests: XCTestCase {
+class StringRegexTextInputValidator_a_z_length_tess_10_Tests: XCTestCase {
 
   private let validator = StringRegexTextInputValidator()
   

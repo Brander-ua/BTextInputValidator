@@ -18,12 +18,12 @@
 		30F3A4D922BCF1B9001AE39B /* StringRegexTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4D822BCF1B9001AE39B /* StringRegexTextInputValidator.swift */; };
 		30F3A4DB22BCF232001AE39B /* CharacterSetTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4DA22BCF232001AE39B /* CharacterSetTextInputValidator.swift */; };
 		30F3A4DD22BCF347001AE39B /* CompositeTextInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4DC22BCF346001AE39B /* CompositeTextInputValidator.swift */; };
-		30F3A4E522BCF492001AE39B /* Symbols1_9RegexTextInputValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4E422BCF492001AE39B /* Symbols1_9RegexTextInputValidatorTests.swift */; };
-		30F3A4E722BCF5B8001AE39B /* Symbols_a_z_RegexTextInputValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4E622BCF5B8001AE39B /* Symbols_a_z_RegexTextInputValidatorTests.swift */; };
-		30F3A4E922BCF7F5001AE39B /* String_a_z_less_than_10_RegexTextInputValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4E822BCF7F5001AE39B /* String_a_z_less_than_10_RegexTextInputValidatorTests.swift */; };
-		30F3A4EB22BCF98A001AE39B /* Digits1_9CharacterSetTextInputValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4EA22BCF98A001AE39B /* Digits1_9CharacterSetTextInputValidatorTests.swift */; };
-		30F3A4ED22BCFC23001AE39B /* Symbols_a_f_TextInputValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4EC22BCFC23001AE39B /* Symbols_a_f_TextInputValidatorTests.swift */; };
-		30F3A4EF22BCFE64001AE39B /* CharacterSetWithMaxLengthTextInputValidatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4EE22BCFE64001AE39B /* CharacterSetWithMaxLengthTextInputValidatorsTests.swift */; };
+		30F3A4E522BCF492001AE39B /* SymbolsRegexTextInputValidator_1_9_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4E422BCF492001AE39B /* SymbolsRegexTextInputValidator_1_9_Tests.swift */; };
+		30F3A4E722BCF5B8001AE39B /* SymbolsRegexTextInputValidator_a_z_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4E622BCF5B8001AE39B /* SymbolsRegexTextInputValidator_a_z_Tests.swift */; };
+		30F3A4E922BCF7F5001AE39B /* StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4E822BCF7F5001AE39B /* StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift */; };
+		30F3A4EB22BCF98A001AE39B /* CharacterSetTextInputValidator_1_9_SymbolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4EA22BCF98A001AE39B /* CharacterSetTextInputValidator_1_9_SymbolsTests.swift */; };
+		30F3A4ED22BCFC23001AE39B /* CharacterSetTextInputValidator_a_f_SymbolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4EC22BCFC23001AE39B /* CharacterSetTextInputValidator_a_f_SymbolsTests.swift */; };
+		30F3A4EF22BCFE64001AE39B /* CompositeCharacterSetWithMaxLengthTextInputValidatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4EE22BCFE64001AE39B /* CompositeCharacterSetWithMaxLengthTextInputValidatorsTests.swift */; };
 		30F3A4F122BD0134001AE39B /* RegexEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4F022BD0134001AE39B /* RegexEvaluator.swift */; };
 		30F3A4F322BD01DC001AE39B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3A4F222BD01DC001AE39B /* String+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -53,12 +53,12 @@
 		30F3A4D822BCF1B9001AE39B /* StringRegexTextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRegexTextInputValidator.swift; sourceTree = "<group>"; };
 		30F3A4DA22BCF232001AE39B /* CharacterSetTextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetTextInputValidator.swift; sourceTree = "<group>"; };
 		30F3A4DC22BCF346001AE39B /* CompositeTextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTextInputValidator.swift; sourceTree = "<group>"; };
-		30F3A4E422BCF492001AE39B /* Symbols1_9RegexTextInputValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols1_9RegexTextInputValidatorTests.swift; sourceTree = "<group>"; };
-		30F3A4E622BCF5B8001AE39B /* Symbols_a_z_RegexTextInputValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols_a_z_RegexTextInputValidatorTests.swift; sourceTree = "<group>"; };
-		30F3A4E822BCF7F5001AE39B /* String_a_z_less_than_10_RegexTextInputValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_a_z_less_than_10_RegexTextInputValidatorTests.swift; sourceTree = "<group>"; };
-		30F3A4EA22BCF98A001AE39B /* Digits1_9CharacterSetTextInputValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digits1_9CharacterSetTextInputValidatorTests.swift; sourceTree = "<group>"; };
-		30F3A4EC22BCFC23001AE39B /* Symbols_a_f_TextInputValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols_a_f_TextInputValidatorTests.swift; sourceTree = "<group>"; };
-		30F3A4EE22BCFE64001AE39B /* CharacterSetWithMaxLengthTextInputValidatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetWithMaxLengthTextInputValidatorsTests.swift; sourceTree = "<group>"; };
+		30F3A4E422BCF492001AE39B /* SymbolsRegexTextInputValidator_1_9_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRegexTextInputValidator_1_9_Tests.swift; sourceTree = "<group>"; };
+		30F3A4E622BCF5B8001AE39B /* SymbolsRegexTextInputValidator_a_z_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRegexTextInputValidator_a_z_Tests.swift; sourceTree = "<group>"; };
+		30F3A4E822BCF7F5001AE39B /* StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift; sourceTree = "<group>"; };
+		30F3A4EA22BCF98A001AE39B /* CharacterSetTextInputValidator_1_9_SymbolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetTextInputValidator_1_9_SymbolsTests.swift; sourceTree = "<group>"; };
+		30F3A4EC22BCFC23001AE39B /* CharacterSetTextInputValidator_a_f_SymbolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetTextInputValidator_a_f_SymbolsTests.swift; sourceTree = "<group>"; };
+		30F3A4EE22BCFE64001AE39B /* CompositeCharacterSetWithMaxLengthTextInputValidatorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeCharacterSetWithMaxLengthTextInputValidatorsTests.swift; sourceTree = "<group>"; };
 		30F3A4F022BD0134001AE39B /* RegexEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexEvaluator.swift; sourceTree = "<group>"; };
 		30F3A4F222BD01DC001AE39B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,7 +170,7 @@
 		30F3A4DE22BCF3B2001AE39B /* CompositeTextInputValidatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				30F3A4EE22BCFE64001AE39B /* CharacterSetWithMaxLengthTextInputValidatorsTests.swift */,
+				30F3A4EE22BCFE64001AE39B /* CompositeCharacterSetWithMaxLengthTextInputValidatorsTests.swift */,
 			);
 			path = CompositeTextInputValidatorTests;
 			sourceTree = "<group>";
@@ -178,8 +178,8 @@
 		30F3A4DF22BCF3C5001AE39B /* SymbolRegexTextInputValidatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				30F3A4E422BCF492001AE39B /* Symbols1_9RegexTextInputValidatorTests.swift */,
-				30F3A4E622BCF5B8001AE39B /* Symbols_a_z_RegexTextInputValidatorTests.swift */,
+				30F3A4E422BCF492001AE39B /* SymbolsRegexTextInputValidator_1_9_Tests.swift */,
+				30F3A4E622BCF5B8001AE39B /* SymbolsRegexTextInputValidator_a_z_Tests.swift */,
 			);
 			path = SymbolRegexTextInputValidatorTests;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 		30F3A4E022BCF3D2001AE39B /* StringRegexTextInputValidatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				30F3A4E822BCF7F5001AE39B /* String_a_z_less_than_10_RegexTextInputValidatorTests.swift */,
+				30F3A4E822BCF7F5001AE39B /* StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift */,
 			);
 			path = StringRegexTextInputValidatorTests;
 			sourceTree = "<group>";
@@ -195,8 +195,8 @@
 		30F3A4E122BCF44F001AE39B /* CharacterSetTextInputValidatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				30F3A4EA22BCF98A001AE39B /* Digits1_9CharacterSetTextInputValidatorTests.swift */,
-				30F3A4EC22BCFC23001AE39B /* Symbols_a_f_TextInputValidatorTests.swift */,
+				30F3A4EA22BCF98A001AE39B /* CharacterSetTextInputValidator_1_9_SymbolsTests.swift */,
+				30F3A4EC22BCFC23001AE39B /* CharacterSetTextInputValidator_a_f_SymbolsTests.swift */,
 			);
 			path = CharacterSetTextInputValidatorTests;
 			sourceTree = "<group>";
@@ -357,12 +357,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F3A4EB22BCF98A001AE39B /* Digits1_9CharacterSetTextInputValidatorTests.swift in Sources */,
-				30F3A4ED22BCFC23001AE39B /* Symbols_a_f_TextInputValidatorTests.swift in Sources */,
-				30F3A4E722BCF5B8001AE39B /* Symbols_a_z_RegexTextInputValidatorTests.swift in Sources */,
-				30F3A4E922BCF7F5001AE39B /* String_a_z_less_than_10_RegexTextInputValidatorTests.swift in Sources */,
-				30F3A4E522BCF492001AE39B /* Symbols1_9RegexTextInputValidatorTests.swift in Sources */,
-				30F3A4EF22BCFE64001AE39B /* CharacterSetWithMaxLengthTextInputValidatorsTests.swift in Sources */,
+				30F3A4EB22BCF98A001AE39B /* CharacterSetTextInputValidator_1_9_SymbolsTests.swift in Sources */,
+				30F3A4ED22BCFC23001AE39B /* CharacterSetTextInputValidator_a_f_SymbolsTests.swift in Sources */,
+				30F3A4E722BCF5B8001AE39B /* SymbolsRegexTextInputValidator_a_z_Tests.swift in Sources */,
+				30F3A4E922BCF7F5001AE39B /* StringRegexTextInputValidator_a_z_length_tess_10_Tests.swift in Sources */,
+				30F3A4E522BCF492001AE39B /* SymbolsRegexTextInputValidator_1_9_Tests.swift in Sources */,
+				30F3A4EF22BCFE64001AE39B /* CompositeCharacterSetWithMaxLengthTextInputValidatorsTests.swift in Sources */,
 				30F3A4D422BCEC19001AE39B /* MaxLength5TextInputValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

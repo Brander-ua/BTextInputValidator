@@ -1,5 +1,5 @@
 //
-//  CharacterSetWithMaxLengthTextInputValidatorsTests.swift
+//  CharacterSetTextInputValidator_1_9_SymbolsTests.swift
 //  BTextInputValidatorTests
 //
 //  Created by branderstudio on 21.06.2019.
@@ -9,22 +9,18 @@
 import XCTest
 @testable import BTextInputValidator
 
-class CharacterSetWithMaxLengthTextInputValidatorsTests: XCTestCase {
+class CharacterSetTextInputValidator_1_9_SymbolsTests: XCTestCase {
 
-  private let digitsValidator = CharacterSetTextInputValidator()
-  private let maxLengthValidator = MaxLengthTextInputValidator()
-  private let validator = CompositeTextInputValidator()
+  private let validator = CharacterSetTextInputValidator()
   
   override func setUp() {
-    digitsValidator.characterSet = CharacterSet(charactersIn: "0123456789")
-    maxLengthValidator.maxLength = 10
-    validator.validators = [digitsValidator, maxLengthValidator]
+    validator.characterSet = CharacterSet(charactersIn: "123456789")
   }
   
   // nil  ->  true
   func test1() {
     let actualResult = validator.validateInputText(nil)
-    let expectedResult = false
+    let expectedResult = true
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
@@ -35,16 +31,16 @@ class CharacterSetWithMaxLengthTextInputValidatorsTests: XCTestCase {
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
-  // a  ->  false
+  // 0  ->  false
   func test3() {
-    let actualResult = validator.validateInputText("a")
+    let actualResult = validator.validateInputText("0")
     let expectedResult = false
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
-  // qwertyuiop  ->  false
+  // 01  ->  false
   func test4() {
-    let actualResult = validator.validateInputText("qwertyuiop")
+    let actualResult = validator.validateInputText("01")
     let expectedResult = false
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
@@ -56,32 +52,31 @@ class CharacterSetWithMaxLengthTextInputValidatorsTests: XCTestCase {
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
-  // 0  ->  true
+  // 5  ->  true
   func test6() {
-    let actualResult = validator.validateInputText("0")
+    let actualResult = validator.validateInputText("5")
     let expectedResult = true
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
-  // 1234567890  ->  true
+  // 9  ->  true
   func test7() {
-    let actualResult = validator.validateInputText("1234567890")
+    let actualResult = validator.validateInputText("9")
     let expectedResult = true
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
-  // 12345678901  ->  false
+  // a  ->  false
   func test8() {
-    let actualResult = validator.validateInputText("12345678901")
+    let actualResult = validator.validateInputText("a")
     let expectedResult = false
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
   
-  // 1a  ->  false
+  // a1  ->  false
   func test9() {
-    let actualResult = validator.validateInputText("1a")
+    let actualResult = validator.validateInputText("a1")
     let expectedResult = false
     XCTAssert(actualResult == expectedResult, "\n\(actualResult) must be equal to\n\(expectedResult)")
   }
-
 }
