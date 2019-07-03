@@ -47,7 +47,7 @@
 		30EB6D2122BCA05000447D5A /* BTextInputValidator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BTextInputValidator.podspec; sourceTree = SOURCE_ROOT; };
 		30EB6D2222BCA05000447D5A /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		30EB6D2522BCA11A00447D5A /* TextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputValidator.swift; sourceTree = "<group>"; };
-		30F3A4D022BCEB5B001AE39B /* MaxLengthTextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLengthTextInputValidator.swift; sourceTree = "<group>"; };
+		30F3A4D022BCEB5B001AE39B /* MaxLengthTextInputValidator.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = MaxLengthTextInputValidator.swift; sourceTree = "<group>"; tabWidth = 2; };
 		30F3A4D322BCEC19001AE39B /* MaxLength5TextInputValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxLength5TextInputValidatorTests.swift; sourceTree = "<group>"; };
 		30F3A4D622BCF17C001AE39B /* SymbolRegexTextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRegexTextInputValidator.swift; sourceTree = "<group>"; };
 		30F3A4D822BCF1B9001AE39B /* StringRegexTextInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRegexTextInputValidator.swift; sourceTree = "<group>"; };

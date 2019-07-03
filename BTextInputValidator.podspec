@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BTextInputValidator'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Text input validator'
 
   s.homepage         = 'https://github.com/Brander-ua/BTextInputValidator'

@@ -10,7 +10,11 @@ import Foundation
 
 open class MaxLengthTextInputValidator: TextInputValidator {
   
-  open var maxLength: Int = 0
+  open var maxLength: Int
+  
+  public init(maxLength: Int = 0) {
+    self.maxLength = maxLength
+  }
   
   open func validateInputText(_ inputText: String?) -> Bool {
     return (inputText?.count ?? 0) <= maxLength

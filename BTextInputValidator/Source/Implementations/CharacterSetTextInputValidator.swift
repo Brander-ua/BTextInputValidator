@@ -10,7 +10,11 @@ import Foundation
 
 open class CharacterSetTextInputValidator: TextInputValidator {
   
-  open var characterSet: CharacterSet = CharacterSet()
+  open var characterSet: CharacterSet
+  
+  public init(characterSet: CharacterSet = CharacterSet()) {
+    self.characterSet = characterSet
+  }
   
   open func validateInputText(_ inputText: String?) -> Bool {
     guard let inputText = inputText, !inputText.isEmpty else { return true }

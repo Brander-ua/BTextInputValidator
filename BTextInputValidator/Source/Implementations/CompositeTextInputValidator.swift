@@ -10,7 +10,11 @@ import Foundation
 
 open class CompositeTextInputValidator: TextInputValidator {
   
-  open var validators: [TextInputValidator] = []
+  open var validators: [TextInputValidator]
+  
+  public init(validators: [TextInputValidator] = []) {
+    self.validators = validators
+  }
   
   open func validateInputText(_ inputText: String?) -> Bool {
     return validators.reduce(true) { (result, validator) -> Bool in

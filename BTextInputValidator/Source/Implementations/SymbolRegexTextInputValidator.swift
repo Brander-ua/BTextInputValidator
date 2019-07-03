@@ -10,7 +10,11 @@ import Foundation
 
 open class SymbolRegexTextInputValidator: TextInputValidator {
   
-  open var regex: String = ""
+  open var regex: String
+  
+  public init(regex: String = "") {
+    self.regex = regex
+  }
   
   open func validateInputText(_ inputText: String?) -> Bool {
     guard let inputText = inputText, !inputText.isEmpty else { return true }
